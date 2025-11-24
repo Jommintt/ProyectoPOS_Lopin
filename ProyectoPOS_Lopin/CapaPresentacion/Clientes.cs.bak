@@ -1,0 +1,48 @@
+﻿using ProyectoPOS_Lopin.CapaEntidades;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace ProyectoPOS_Lopin.CapaPresentacion
+{
+    public partial class Clientes : Form
+    {
+        public Clientes()
+        {
+            InitializeComponent();
+        }
+        //creaciond e una lsita estatica que simulara la DB 
+        public static List<Clientes> ListaClientes = new List<Clientes>();
+
+        private int Id { get; set; }
+
+        // private object listaProductos;
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Clientes_Load(object sender, EventArgs e)
+        {
+            if (ListaClientes.Any())
+            {
+                ListaClientes.Add(new Clientes
+                {
+                    Id = 1,
+                    Nombre = "Camila Mila",
+                    Email = "Importado",
+                    Telefono = 10.5m,
+                    Estado = true
+                });
+
+
+            }
+        }
+    }
+}

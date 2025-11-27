@@ -73,7 +73,7 @@
             this.salirToolStripMenuItem});
             this.menuSuperior.Location = new System.Drawing.Point(0, 0);
             this.menuSuperior.Name = "menuSuperior";
-            this.menuSuperior.Size = new System.Drawing.Size(778, 36);
+            this.menuSuperior.Size = new System.Drawing.Size(778, 38);
             this.menuSuperior.TabIndex = 0;
             this.menuSuperior.Text = "menuStrip1";
             // 
@@ -215,9 +215,9 @@
             this.PanelHizquierdo.Controls.Add(this.btmProductos);
             this.PanelHizquierdo.Controls.Add(this.btmVentaRapida);
             this.PanelHizquierdo.Dock = System.Windows.Forms.DockStyle.Left;
-            this.PanelHizquierdo.Location = new System.Drawing.Point(0, 36);
+            this.PanelHizquierdo.Location = new System.Drawing.Point(0, 38);
             this.PanelHizquierdo.Name = "PanelHizquierdo";
-            this.PanelHizquierdo.Size = new System.Drawing.Size(200, 508);
+            this.PanelHizquierdo.Size = new System.Drawing.Size(200, 506);
             this.PanelHizquierdo.TabIndex = 1;
             // 
             // btnClientes
@@ -305,9 +305,9 @@
             this.panelCentral.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelCentral.BackgroundImage")));
             this.panelCentral.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelCentral.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.panelCentral.Location = new System.Drawing.Point(200, 36);
+            this.panelCentral.Location = new System.Drawing.Point(200, 38);
             this.panelCentral.Name = "panelCentral";
-            this.panelCentral.Size = new System.Drawing.Size(578, 508);
+            this.panelCentral.Size = new System.Drawing.Size(578, 506);
             this.panelCentral.TabIndex = 2;
             // 
             // FrmMenuPrincipal

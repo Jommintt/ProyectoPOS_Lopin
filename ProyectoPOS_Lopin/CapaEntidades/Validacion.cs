@@ -31,7 +31,30 @@ namespace ProyectoPOS_Lopin.CapaEntidades
             //expresion regular para validar correo
             var patron = @"^[@\s]+@[^@\s]+\.[@\s]+$";
             return Regex.IsMatch(email, patron);
+        }
+        //Validaciones para clientes
+        //valida que dato sea entero
+        public static bool EsEnteroc(string s)
+        {
+            int Telefono;
+            return int.TryParse(s, out Telefono);
 
+        }
+        //valida que dato sea entero
+        public static bool EsEnteroId(string s)
+        {
+            int Id;
+            return int.TryParse(s, out Id);
+        }
+
+        //valida direccion de correo electronico
+        public static bool EsCorreoValidoc(string Correo)
+        {
+            if (string.IsNullOrWhiteSpace(Correo))
+                return false;
+            //Expresiones regular para validar correo
+            var patron = @"^[^@\s]+.[^@\s]+$";
+            return Regex.IsMatch(Correo, patron);
         }
 
     }

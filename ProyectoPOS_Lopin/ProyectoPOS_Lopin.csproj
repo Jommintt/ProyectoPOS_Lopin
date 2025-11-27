@@ -46,12 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CapaDatos\CategoriaDAL.cs" />
     <Compile Include="CapaDatos\ClienteDAL.cs" />
     <Compile Include="CapaDatos\Conexion.cs" />
+    <Compile Include="CapaEntidades\Categoria.cs" />
     <Compile Include="CapaEntidades\Cliente.cs" />
     <Compile Include="CapaEntidades\Cliente2.cs" />
     <Compile Include="CapaEntidades\Producto.cs" />
     <Compile Include="CapaEntidades\Validacion.cs" />
+    <Compile Include="CapaEntidades\Ventas.cs" />
+    <Compile Include="CapaNegocio\CategoriaBLL.cs" />
+    <Compile Include="CapaNegocio\ClienteBLL.cs" />
     <Compile Include="CapaPresentacion\Clientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +68,36 @@
     </Compile>
     <Compile Include="CapaPresentacion\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapaPresentacion\FormCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapaPresentacion\FormCategoria.Designer.cs">
+      <DependentUpon>FormCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapaPresentacion\FormCategoriaEliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapaPresentacion\FormCategoriaEliminar.Designer.cs">
+      <DependentUpon>FormCategoriaEliminar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapaPresentacion\FormCategoriaGestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapaPresentacion\FormCategoriaGestion.Designer.cs">
+      <DependentUpon>FormCategoriaGestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapaPresentacion\FormCliente2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapaPresentacion\FormCliente2.Designer.cs">
+      <DependentUpon>FormCliente2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapaPresentacion\FormVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapaPresentacion\FormVentas.Designer.cs">
+      <DependentUpon>FormVentas.cs</DependentUpon>
     </Compile>
     <Compile Include="CapaPresentacion\FrmProductos.cs">
       <SubType>Form</SubType>
@@ -77,6 +112,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CapaPresentacion\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapaPresentacion\FormCategoria.resx">
+      <DependentUpon>FormCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapaPresentacion\FormCategoriaEliminar.resx">
+      <DependentUpon>FormCategoriaEliminar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapaPresentacion\FormCategoriaGestion.resx">
+      <DependentUpon>FormCategoriaGestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapaPresentacion\FormCliente2.resx">
+      <DependentUpon>FormCliente2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CapaPresentacion\FrmProductos.resx">
       <DependentUpon>FrmProductos.cs</DependentUpon>
@@ -104,7 +151,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="CapaNegocio\" />
     <Folder Include="Recursos\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

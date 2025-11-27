@@ -104,9 +104,9 @@
             // btnVolver
             // 
             this.btnVolver.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.btnVolver.Location = new System.Drawing.Point(570, 146);
+            this.btnVolver.Location = new System.Drawing.Point(549, 146);
             this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(141, 26);
+            this.btnVolver.Size = new System.Drawing.Size(162, 26);
             this.btnVolver.TabIndex = 17;
             this.btnVolver.Text = "Volver";
             this.btnVolver.UseVisualStyleBackColor = false;
@@ -114,9 +114,9 @@
             // btnlimpiarcampo
             // 
             this.btnlimpiarcampo.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.btnlimpiarcampo.Location = new System.Drawing.Point(570, 111);
+            this.btnlimpiarcampo.Location = new System.Drawing.Point(549, 111);
             this.btnlimpiarcampo.Name = "btnlimpiarcampo";
-            this.btnlimpiarcampo.Size = new System.Drawing.Size(141, 26);
+            this.btnlimpiarcampo.Size = new System.Drawing.Size(162, 26);
             this.btnlimpiarcampo.TabIndex = 16;
             this.btnlimpiarcampo.Text = "Limpiar Campo";
             this.btnlimpiarcampo.UseVisualStyleBackColor = false;
@@ -124,9 +124,9 @@
             // btnEliminar
             // 
             this.btnEliminar.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.btnEliminar.Location = new System.Drawing.Point(570, 79);
+            this.btnEliminar.Location = new System.Drawing.Point(549, 79);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(141, 26);
+            this.btnEliminar.Size = new System.Drawing.Size(162, 26);
             this.btnEliminar.TabIndex = 15;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = false;
@@ -135,9 +135,9 @@
             // btnEditar
             // 
             this.btnEditar.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.btnEditar.Location = new System.Drawing.Point(570, 47);
+            this.btnEditar.Location = new System.Drawing.Point(549, 47);
             this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(141, 26);
+            this.btnEditar.Size = new System.Drawing.Size(162, 26);
             this.btnEditar.TabIndex = 14;
             this.btnEditar.Text = "Modificar";
             this.btnEditar.UseVisualStyleBackColor = false;
@@ -145,9 +145,9 @@
             // btnnuevo
             // 
             this.btnnuevo.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.btnnuevo.Location = new System.Drawing.Point(512, 15);
+            this.btnnuevo.Location = new System.Drawing.Point(549, 15);
             this.btnnuevo.Name = "btnnuevo";
-            this.btnnuevo.Size = new System.Drawing.Size(199, 26);
+            this.btnnuevo.Size = new System.Drawing.Size(162, 26);
             this.btnnuevo.TabIndex = 13;
             this.btnnuevo.Text = "Agregar Producto";
             this.btnnuevo.UseVisualStyleBackColor = false;

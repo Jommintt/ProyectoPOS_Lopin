@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace ProyectoPOS_Lopin.CapaEntidades
 {
-    internal class Cliente2
+    public class Cliente2
     {
+        // Definir atributos
         public int Id { get; set; }
         public string Nombre { get; set; }
-        public string Email { get; set; }
-        public string Telefono { get; set; }
+        public string Correo { get; set; }
+        public int Telefono { get; set; }
         public bool Estado { get; set; }
+
+        
     }
 }

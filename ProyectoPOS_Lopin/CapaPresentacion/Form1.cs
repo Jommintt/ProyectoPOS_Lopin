@@ -34,7 +34,7 @@ namespace ProyectoPOS_Lopin
         private void btnClientes_Click(object sender, EventArgs e)
         {
             {
-                Clientes frm = new Clientes();
+                FormCliente2 frm = new FormCliente2();
                 frm.ShowDialog();
             }
         }

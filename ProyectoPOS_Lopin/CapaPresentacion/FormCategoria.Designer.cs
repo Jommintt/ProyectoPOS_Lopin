@@ -42,25 +42,26 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Verdana", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(262, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(311, 26);
+            this.label1.Size = new System.Drawing.Size(319, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "CONTROL DE CATEGORIAS";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(103, 74);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 22);
+            this.label2.Size = new System.Drawing.Size(65, 22);
             this.label2.TabIndex = 1;
             this.label2.Text = "Buscar";
             // 
             // dgvControlCategoria
             // 
+            this.dgvControlCategoria.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dgvControlCategoria.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvControlCategoria.Location = new System.Drawing.Point(57, 123);
             this.dgvControlCategoria.Name = "dgvControlCategoria";
@@ -79,6 +80,7 @@
             // 
             // btnAgregar
             // 
+            this.btnAgregar.Font = new System.Drawing.Font("Times New Roman", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregar.Location = new System.Drawing.Point(57, 364);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(116, 51);
@@ -89,6 +91,7 @@
             // 
             // btnModificar
             // 
+            this.btnModificar.Font = new System.Drawing.Font("Times New Roman", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnModificar.Location = new System.Drawing.Point(267, 364);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(116, 51);
@@ -99,6 +102,7 @@
             // 
             // btnVolver
             // 
+            this.btnVolver.Font = new System.Drawing.Font("Times New Roman", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVolver.Location = new System.Drawing.Point(654, 364);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(116, 51);
@@ -109,6 +113,7 @@
             // 
             // btnEliminar
             // 
+            this.btnEliminar.Font = new System.Drawing.Font("Times New Roman", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminar.Location = new System.Drawing.Point(457, 364);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(116, 51);
@@ -121,6 +126,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(840, 464);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnVolver);

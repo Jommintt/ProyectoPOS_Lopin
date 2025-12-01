@@ -148,6 +148,11 @@ namespace ProyectoPOS_Lopin.CapaPresentacion
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void btnEliminar_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
         }
     

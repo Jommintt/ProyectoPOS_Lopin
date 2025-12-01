@@ -38,6 +38,12 @@ namespace ProyectoPOS_Lopin
                 frm.ShowDialog();
             }
         }
+
+        private void btnPruebas_Click(object sender, EventArgs e)
+        {
+            FrmPruebas frm = new FrmPruebas();
+            frm.ShowDialog();
+        }
     }
 }
 

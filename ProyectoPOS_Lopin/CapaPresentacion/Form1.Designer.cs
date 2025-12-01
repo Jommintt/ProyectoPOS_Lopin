@@ -49,6 +49,7 @@
             this.cierreDeCajaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.PanelHizquierdo = new System.Windows.Forms.Panel();
+            this.btnPruebas = new System.Windows.Forms.Button();
             this.btnClientes = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnCorteCaja = new System.Windows.Forms.Button();
@@ -73,7 +74,7 @@
             this.salirToolStripMenuItem});
             this.menuSuperior.Location = new System.Drawing.Point(0, 0);
             this.menuSuperior.Name = "menuSuperior";
-            this.menuSuperior.Size = new System.Drawing.Size(778, 38);
+            this.menuSuperior.Size = new System.Drawing.Size(778, 36);
             this.menuSuperior.TabIndex = 0;
             this.menuSuperior.Text = "menuStrip1";
             // 
@@ -93,7 +94,7 @@
             this.agregarProductoToolStripMenuItem,
             this.verProductoToolStripMenuItem});
             this.productosToolStripMenuItem.Name = "productosToolStripMenuItem";
-            this.productosToolStripMenuItem.Size = new System.Drawing.Size(203, 36);
+            this.productosToolStripMenuItem.Size = new System.Drawing.Size(270, 36);
             this.productosToolStripMenuItem.Text = "Productos";
             // 
             // agregarProductoToolStripMenuItem
@@ -114,7 +115,7 @@
             this.agregarCategoríaToolStripMenuItem,
             this.verCategoríaToolStripMenuItem});
             this.categoríaToolStripMenuItem.Name = "categoríaToolStripMenuItem";
-            this.categoríaToolStripMenuItem.Size = new System.Drawing.Size(203, 36);
+            this.categoríaToolStripMenuItem.Size = new System.Drawing.Size(270, 36);
             this.categoríaToolStripMenuItem.Text = "Categoría";
             // 
             // agregarCategoríaToolStripMenuItem
@@ -135,7 +136,7 @@
             this.agregarClienteToolStripMenuItem,
             this.verClienteToolStripMenuItem});
             this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(203, 36);
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(270, 36);
             this.clientesToolStripMenuItem.Text = "Clientes";
             // 
             // agregarClienteToolStripMenuItem
@@ -207,7 +208,8 @@
             // 
             // PanelHizquierdo
             // 
-            this.PanelHizquierdo.BackColor = System.Drawing.Color.Peru;
+            this.PanelHizquierdo.BackColor = System.Drawing.Color.Salmon;
+            this.PanelHizquierdo.Controls.Add(this.btnPruebas);
             this.PanelHizquierdo.Controls.Add(this.btnClientes);
             this.PanelHizquierdo.Controls.Add(this.btnSalir);
             this.PanelHizquierdo.Controls.Add(this.btnCorteCaja);
@@ -215,17 +217,31 @@
             this.PanelHizquierdo.Controls.Add(this.btmProductos);
             this.PanelHizquierdo.Controls.Add(this.btmVentaRapida);
             this.PanelHizquierdo.Dock = System.Windows.Forms.DockStyle.Left;
-            this.PanelHizquierdo.Location = new System.Drawing.Point(0, 38);
+            this.PanelHizquierdo.Location = new System.Drawing.Point(0, 36);
             this.PanelHizquierdo.Name = "PanelHizquierdo";
-            this.PanelHizquierdo.Size = new System.Drawing.Size(200, 506);
+            this.PanelHizquierdo.Size = new System.Drawing.Size(200, 508);
             this.PanelHizquierdo.TabIndex = 1;
+            // 
+            // btnPruebas
+            // 
+            this.btnPruebas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnPruebas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPruebas.Font = new System.Drawing.Font("SimSun", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPruebas.Location = new System.Drawing.Point(12, 366);
+            this.btnPruebas.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
+            this.btnPruebas.Name = "btnPruebas";
+            this.btnPruebas.Size = new System.Drawing.Size(180, 55);
+            this.btnPruebas.TabIndex = 6;
+            this.btnPruebas.Text = "Pruebas";
+            this.btnPruebas.UseVisualStyleBackColor = false;
+            this.btnPruebas.Click += new System.EventHandler(this.btnPruebas_Click);
             // 
             // btnClientes
             // 
-            this.btnClientes.BackColor = System.Drawing.Color.Bisque;
+            this.btnClientes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClientes.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClientes.Location = new System.Drawing.Point(12, 162);
+            this.btnClientes.Font = new System.Drawing.Font("SimSun", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClientes.Location = new System.Drawing.Point(12, 151);
             this.btnClientes.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
             this.btnClientes.Name = "btnClientes";
             this.btnClientes.Size = new System.Drawing.Size(180, 55);
@@ -236,10 +252,10 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.BackColor = System.Drawing.Color.Bisque;
+            this.btnSalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSalir.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.Location = new System.Drawing.Point(12, 387);
+            this.btnSalir.Font = new System.Drawing.Font("SimSun", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.Location = new System.Drawing.Point(12, 434);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(180, 55);
@@ -249,10 +265,10 @@
             // 
             // btnCorteCaja
             // 
-            this.btnCorteCaja.BackColor = System.Drawing.Color.Bisque;
+            this.btnCorteCaja.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnCorteCaja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCorteCaja.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCorteCaja.Location = new System.Drawing.Point(12, 312);
+            this.btnCorteCaja.Font = new System.Drawing.Font("SimSun", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCorteCaja.Location = new System.Drawing.Point(12, 291);
             this.btnCorteCaja.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
             this.btnCorteCaja.Name = "btnCorteCaja";
             this.btnCorteCaja.Size = new System.Drawing.Size(180, 55);
@@ -262,10 +278,10 @@
             // 
             // btnInventario
             // 
-            this.btnInventario.BackColor = System.Drawing.Color.Bisque;
+            this.btnInventario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnInventario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInventario.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInventario.Location = new System.Drawing.Point(12, 237);
+            this.btnInventario.Font = new System.Drawing.Font("SimSun", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInventario.Location = new System.Drawing.Point(12, 216);
             this.btnInventario.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
             this.btnInventario.Name = "btnInventario";
             this.btnInventario.Size = new System.Drawing.Size(180, 55);
@@ -275,23 +291,23 @@
             // 
             // btmProductos
             // 
-            this.btmProductos.BackColor = System.Drawing.Color.Bisque;
+            this.btmProductos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btmProductos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btmProductos.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btmProductos.Location = new System.Drawing.Point(12, 87);
+            this.btmProductos.Font = new System.Drawing.Font("SimSun", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btmProductos.Location = new System.Drawing.Point(12, 76);
             this.btmProductos.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
             this.btmProductos.Name = "btmProductos";
             this.btmProductos.Size = new System.Drawing.Size(180, 55);
             this.btmProductos.TabIndex = 1;
             this.btmProductos.Text = "Productos";
-            this.btmProductos.UseVisualStyleBackColor = true;
+            this.btmProductos.UseVisualStyleBackColor = false;
             this.btmProductos.Click += new System.EventHandler(this.btmProductos_Click);
             // 
             // btmVentaRapida
             // 
-            this.btmVentaRapida.BackColor = System.Drawing.Color.Bisque;
+            this.btmVentaRapida.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btmVentaRapida.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btmVentaRapida.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btmVentaRapida.Font = new System.Drawing.Font("SimSun", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btmVentaRapida.Location = new System.Drawing.Point(12, 12);
             this.btmVentaRapida.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
             this.btmVentaRapida.Name = "btmVentaRapida";
@@ -305,9 +321,9 @@
             this.panelCentral.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelCentral.BackgroundImage")));
             this.panelCentral.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelCentral.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.panelCentral.Location = new System.Drawing.Point(200, 38);
+            this.panelCentral.Location = new System.Drawing.Point(200, 36);
             this.panelCentral.Name = "panelCentral";
-            this.panelCentral.Size = new System.Drawing.Size(578, 506);
+            this.panelCentral.Size = new System.Drawing.Size(578, 508);
             this.panelCentral.TabIndex = 2;
             // 
             // FrmMenuPrincipal
@@ -362,6 +378,7 @@
         private System.Windows.Forms.Button btnInventario;
         private System.Windows.Forms.Button btmProductos;
         private System.Windows.Forms.Panel panelCentral;
+        private System.Windows.Forms.Button btnPruebas;
     }
 }
 

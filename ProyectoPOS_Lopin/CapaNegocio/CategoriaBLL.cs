@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoPOS_Lopin.CapaNegocio
 {
-    internal class CategoriaBLL
+    public class CategoriaBLL
     {
 
         CategoriaDAL dal = new CategoriaDAL();

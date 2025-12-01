@@ -53,9 +53,9 @@
             this.label1.Font = new System.Drawing.Font("Mongolian Baiti", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(316, 34);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(214, 24);
+            this.label1.Size = new System.Drawing.Size(262, 24);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Formulario de Clientes";
+            this.label1.Text = "FORMULARIO CLIENTES";
             // 
             // label2
             // 
@@ -69,6 +69,7 @@
             // 
             // dgvClientedos
             // 
+            this.dgvClientedos.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dgvClientedos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvClientedos.Location = new System.Drawing.Point(58, 76);
             this.dgvClientedos.Name = "dgvClientedos";
@@ -158,45 +159,51 @@
             // 
             // btnLimpiar
             // 
+            this.btnLimpiar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnLimpiar.Location = new System.Drawing.Point(58, 470);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(113, 34);
             this.btnLimpiar.TabIndex = 16;
             this.btnLimpiar.Text = "LIMPIAR";
-            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.UseVisualStyleBackColor = false;
             // 
             // btnGuardar
             // 
+            this.btnGuardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnGuardar.Location = new System.Drawing.Point(188, 470);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(113, 34);
             this.btnGuardar.TabIndex = 17;
             this.btnGuardar.Text = "GUARDAR";
-            this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.UseVisualStyleBackColor = false;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click_1);
             // 
             // btnVolver
             // 
+            this.btnVolver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnVolver.Location = new System.Drawing.Point(674, 470);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(113, 34);
             this.btnVolver.TabIndex = 18;
             this.btnVolver.Text = "VOLVER";
-            this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.UseVisualStyleBackColor = false;
             // 
             // btnEliminar
             // 
+            this.btnEliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnEliminar.Location = new System.Drawing.Point(542, 470);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(113, 34);
             this.btnEliminar.TabIndex = 19;
             this.btnEliminar.Text = "ELIMINAR";
-            this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click_1);
             // 
             // FormCliente2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(851, 532);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnVolver);

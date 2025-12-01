@@ -39,24 +39,28 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(420, 304);
+            this.btnCancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnCancelar.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelar.Location = new System.Drawing.Point(421, 316);
             this.btnCancelar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(243, 78);
+            this.btnCancelar.Size = new System.Drawing.Size(242, 55);
             this.btnCancelar.TabIndex = 20;
-            this.btnCancelar.Text = "CANCELAR";
-            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = false;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click_1);
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(138, 304);
+            this.btnEliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnEliminar.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.Location = new System.Drawing.Point(136, 316);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(243, 78);
+            this.btnEliminar.Size = new System.Drawing.Size(231, 55);
             this.btnEliminar.TabIndex = 19;
             this.btnEliminar.Text = "Eliminar";
-            this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.UseVisualStyleBackColor = false;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click_1);
             // 
             // txtDescripcion
@@ -81,9 +85,9 @@
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(144, 224);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(172, 32);
+            this.label3.Size = new System.Drawing.Size(149, 32);
             this.label3.TabIndex = 16;
-            this.label3.Text = "DESCRIPCIÓN";
+            this.label3.Text = "Descripción";
             // 
             // label2
             // 
@@ -91,9 +95,9 @@
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(144, 153);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(118, 32);
+            this.label2.Size = new System.Drawing.Size(108, 32);
             this.label2.TabIndex = 15;
-            this.label2.Text = "NOMBRE";
+            this.label2.Text = "Nombre";
             // 
             // lblTitulo
             // 
@@ -109,7 +113,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ClientSize = new System.Drawing.Size(787, 415);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.txtDescripcion);

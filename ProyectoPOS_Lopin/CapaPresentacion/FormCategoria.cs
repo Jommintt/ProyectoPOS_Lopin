@@ -68,11 +68,6 @@ namespace ProyectoPOS_Lopin.CapaPresentacion
 
         }
 
-       
-
-        
-
-
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             FormCategoriaGestion frm = new FormCategoriaGestion(); //Aca dará error hasta que construyamos el Formulario llamado  FrmCategoriaGestion
@@ -109,7 +104,7 @@ namespace ProyectoPOS_Lopin.CapaPresentacion
             frm.ShowDialog();
             CargarDatos();
         }
-
+        //BOTON ELIMINAR
         private void btnEliminar_Click(object sender, EventArgs e)
         {
 

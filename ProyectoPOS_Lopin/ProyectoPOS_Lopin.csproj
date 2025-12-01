@@ -49,14 +49,22 @@
     <Compile Include="CapaDatos\CategoriaDAL.cs" />
     <Compile Include="CapaDatos\ClienteDAL.cs" />
     <Compile Include="CapaDatos\Conexion.cs" />
+    <Compile Include="CapaDatos\MetodoPagoDAL.cs" />
+    <Compile Include="CapaDatos\ProductoDAL.cs" />
+    <Compile Include="CapaDatos\VentaDAL.cs" />
     <Compile Include="CapaEntidades\Categoria.cs" />
     <Compile Include="CapaEntidades\Cliente.cs" />
     <Compile Include="CapaEntidades\Cliente2.cs" />
+    <Compile Include="CapaEntidades\DetalleVenta.cs" />
+    <Compile Include="CapaEntidades\MetodoPago.cs" />
     <Compile Include="CapaEntidades\Producto.cs" />
+    <Compile Include="CapaEntidades\RespuestaOperacion.cs" />
     <Compile Include="CapaEntidades\Validacion.cs" />
+    <Compile Include="CapaEntidades\Venta.cs" />
     <Compile Include="CapaEntidades\Ventas.cs" />
     <Compile Include="CapaNegocio\CategoriaBLL.cs" />
     <Compile Include="CapaNegocio\ClienteBLL.cs" />
+    <Compile Include="CapaNegocio\VentaBLL.cs" />
     <Compile Include="CapaPresentacion\Clientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +101,18 @@
     <Compile Include="CapaPresentacion\FormCliente2.Designer.cs">
       <DependentUpon>FormCliente2.cs</DependentUpon>
     </Compile>
+    <Compile Include="CapaPresentacion\FormDiseñoVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapaPresentacion\FormDiseñoVentas.Designer.cs">
+      <DependentUpon>FormDiseñoVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapaPresentacion\FrmPruebas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapaPresentacion\FrmPruebas.Designer.cs">
+      <DependentUpon>FrmPruebas.cs</DependentUpon>
+    </Compile>
     <Compile Include="CapaPresentacion\FormVentas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,6 +144,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CapaPresentacion\FormCliente2.resx">
       <DependentUpon>FormCliente2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapaPresentacion\FormDiseñoVentas.resx">
+      <DependentUpon>FormDiseñoVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapaPresentacion\FrmPruebas.resx">
+      <DependentUpon>FrmPruebas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CapaPresentacion\FrmProductos.resx">
       <DependentUpon>FrmProductos.cs</DependentUpon>

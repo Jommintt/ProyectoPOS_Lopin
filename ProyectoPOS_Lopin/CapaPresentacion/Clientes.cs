@@ -13,7 +13,7 @@ using ProyectoPOS_Lopin.CapaNegocio;
 
     namespace ProyectoPOS_Lopin.CapaPresentacion
     {
-        public partial class Clientes : Form
+        public partial class FrmClientes : Form
         {
             // Lista que simula la base de datos
             public static List<Cliente> ListaClientes = new List<Cliente>();
@@ -32,7 +32,7 @@ using ProyectoPOS_Lopin.CapaNegocio;
             btenEliminar.Enabled = true;
             btenlimpiar.Enabled = true;
         }
-        public Clientes()
+        public FrmClientes()
             {
                 InitializeComponent();
                 // Optional: wire some handlers if designer didn't

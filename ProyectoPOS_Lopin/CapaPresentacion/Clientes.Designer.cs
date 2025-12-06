@@ -1,6 +1,6 @@
 ﻿namespace ProyectoPOS_Lopin.CapaPresentacion
 {
-    partial class Clientes
+    partial class FrmClientes
     {
         /// <summary>
         /// Required designer variable.
@@ -54,9 +54,9 @@
             // 
             this.textControlClientes.AutoSize = true;
             this.textControlClientes.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textControlClientes.Location = new System.Drawing.Point(326, 18);
+            this.textControlClientes.Location = new System.Drawing.Point(359, 19);
             this.textControlClientes.Name = "textControlClientes";
-            this.textControlClientes.Size = new System.Drawing.Size(243, 25);
+            this.textControlClientes.Size = new System.Drawing.Size(210, 21);
             this.textControlClientes.TabIndex = 1;
             this.textControlClientes.Text = "CONTROL DE CLINTES";
             this.textControlClientes.Click += new System.EventHandler(this.textControlClientes_Click);
@@ -66,11 +66,12 @@
             this.dgvCliente.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dgvCliente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCliente.GridColor = System.Drawing.SystemColors.ButtonShadow;
-            this.dgvCliente.Location = new System.Drawing.Point(24, 66);
+            this.dgvCliente.Location = new System.Drawing.Point(57, 52);
+            this.dgvCliente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvCliente.Name = "dgvCliente";
             this.dgvCliente.RowHeadersWidth = 62;
             this.dgvCliente.RowTemplate.Height = 28;
-            this.dgvCliente.Size = new System.Drawing.Size(829, 146);
+            this.dgvCliente.Size = new System.Drawing.Size(803, 139);
             this.dgvCliente.TabIndex = 2;
             this.dgvCliente.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCliente_CellClick);
             this.dgvCliente.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCliente_CellContentClick);
@@ -93,9 +94,11 @@
             this.groupCliente.Controls.Add(this.label2);
             this.groupCliente.Controls.Add(this.label1);
             this.groupCliente.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupCliente.Location = new System.Drawing.Point(24, 227);
+            this.groupCliente.Location = new System.Drawing.Point(57, 207);
+            this.groupCliente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupCliente.Name = "groupCliente";
-            this.groupCliente.Size = new System.Drawing.Size(829, 290);
+            this.groupCliente.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupCliente.Size = new System.Drawing.Size(803, 272);
             this.groupCliente.TabIndex = 3;
             this.groupCliente.TabStop = false;
             this.groupCliente.Text = "Cliente";
@@ -104,9 +107,10 @@
             // 
             this.btenRegresar.BackColor = System.Drawing.Color.SpringGreen;
             this.btenRegresar.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btenRegresar.Location = new System.Drawing.Point(652, 229);
+            this.btenRegresar.Location = new System.Drawing.Point(656, 222);
+            this.btenRegresar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btenRegresar.Name = "btenRegresar";
-            this.btenRegresar.Size = new System.Drawing.Size(141, 43);
+            this.btenRegresar.Size = new System.Drawing.Size(125, 34);
             this.btenRegresar.TabIndex = 17;
             this.btenRegresar.Text = "Regresar";
             this.btenRegresar.UseVisualStyleBackColor = false;
@@ -116,9 +120,10 @@
             // 
             this.btenlimpiar.BackColor = System.Drawing.Color.SpringGreen;
             this.btenlimpiar.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btenlimpiar.Location = new System.Drawing.Point(495, 229);
+            this.btenlimpiar.Location = new System.Drawing.Point(498, 222);
+            this.btenlimpiar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btenlimpiar.Name = "btenlimpiar";
-            this.btenlimpiar.Size = new System.Drawing.Size(141, 43);
+            this.btenlimpiar.Size = new System.Drawing.Size(125, 34);
             this.btenlimpiar.TabIndex = 16;
             this.btenlimpiar.Text = "Limpar";
             this.btenlimpiar.UseVisualStyleBackColor = false;
@@ -127,9 +132,10 @@
             // 
             this.btenEliminar.BackColor = System.Drawing.Color.SpringGreen;
             this.btenEliminar.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btenEliminar.Location = new System.Drawing.Point(340, 229);
+            this.btenEliminar.Location = new System.Drawing.Point(338, 222);
+            this.btenEliminar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btenEliminar.Name = "btenEliminar";
-            this.btenEliminar.Size = new System.Drawing.Size(141, 43);
+            this.btenEliminar.Size = new System.Drawing.Size(125, 34);
             this.btenEliminar.TabIndex = 15;
             this.btenEliminar.Text = "Desechar";
             this.btenEliminar.UseVisualStyleBackColor = false;
@@ -138,9 +144,10 @@
             // 
             this.btenEditar.BackColor = System.Drawing.Color.SpringGreen;
             this.btenEditar.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btenEditar.Location = new System.Drawing.Point(180, 229);
+            this.btenEditar.Location = new System.Drawing.Point(184, 222);
+            this.btenEditar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btenEditar.Name = "btenEditar";
-            this.btenEditar.Size = new System.Drawing.Size(141, 43);
+            this.btenEditar.Size = new System.Drawing.Size(125, 34);
             this.btenEditar.TabIndex = 14;
             this.btenEditar.Text = "Editar";
             this.btenEditar.UseVisualStyleBackColor = false;
@@ -149,9 +156,10 @@
             // 
             this.btenNuevo.BackColor = System.Drawing.Color.SpringGreen;
             this.btenNuevo.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btenNuevo.Location = new System.Drawing.Point(21, 229);
+            this.btenNuevo.Location = new System.Drawing.Point(19, 222);
+            this.btenNuevo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btenNuevo.Name = "btenNuevo";
-            this.btenNuevo.Size = new System.Drawing.Size(141, 43);
+            this.btenNuevo.Size = new System.Drawing.Size(125, 34);
             this.btenNuevo.TabIndex = 13;
             this.btenNuevo.Text = "Nuevo";
             this.btenNuevo.UseVisualStyleBackColor = false;
@@ -160,40 +168,45 @@
             // 
             this.chkestados.AutoSize = true;
             this.chkestados.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkestados.Location = new System.Drawing.Point(620, 100);
+            this.chkestados.Location = new System.Drawing.Point(551, 99);
+            this.chkestados.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chkestados.Name = "chkestados";
-            this.chkestados.Size = new System.Drawing.Size(160, 26);
+            this.chkestados.Size = new System.Drawing.Size(135, 23);
             this.chkestados.TabIndex = 12;
             this.chkestados.Text = "Activo/Inactivo";
             this.chkestados.UseVisualStyleBackColor = true;
             // 
             // textemail
             // 
-            this.textemail.Location = new System.Drawing.Point(111, 101);
+            this.textemail.Location = new System.Drawing.Point(99, 92);
+            this.textemail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textemail.Name = "textemail";
-            this.textemail.Size = new System.Drawing.Size(355, 30);
+            this.textemail.Size = new System.Drawing.Size(316, 27);
             this.textemail.TabIndex = 11;
             // 
             // texttelefono
             // 
-            this.texttelefono.Location = new System.Drawing.Point(620, 39);
+            this.texttelefono.Location = new System.Drawing.Point(551, 31);
+            this.texttelefono.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.texttelefono.Name = "texttelefono";
-            this.texttelefono.Size = new System.Drawing.Size(141, 30);
+            this.texttelefono.Size = new System.Drawing.Size(126, 27);
             this.texttelefono.TabIndex = 10;
             // 
             // textnombre
             // 
-            this.textnombre.Location = new System.Drawing.Point(111, 157);
+            this.textnombre.Location = new System.Drawing.Point(99, 150);
+            this.textnombre.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textnombre.Name = "textnombre";
-            this.textnombre.Size = new System.Drawing.Size(355, 30);
+            this.textnombre.Size = new System.Drawing.Size(316, 27);
             this.textnombre.TabIndex = 8;
             // 
             // textcodigo
             // 
             this.textcodigo.Enabled = false;
-            this.textcodigo.Location = new System.Drawing.Point(111, 39);
+            this.textcodigo.Location = new System.Drawing.Point(99, 31);
+            this.textcodigo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textcodigo.Name = "textcodigo";
-            this.textcodigo.Size = new System.Drawing.Size(140, 30);
+            this.textcodigo.Size = new System.Drawing.Size(125, 27);
             this.textcodigo.TabIndex = 7;
             this.textcodigo.TextChanged += new System.EventHandler(this.textcodigo_TextChanged);
             // 
@@ -201,9 +214,9 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(519, 100);
+            this.label6.Location = new System.Drawing.Point(463, 100);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(64, 22);
+            this.label6.Size = new System.Drawing.Size(55, 19);
             this.label6.TabIndex = 4;
             this.label6.Text = "Estado";
             // 
@@ -211,9 +224,9 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(504, 47);
+            this.label5.Location = new System.Drawing.Point(448, 38);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(80, 22);
+            this.label5.Size = new System.Drawing.Size(70, 19);
             this.label5.TabIndex = 3;
             this.label5.Text = "Telefono";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -222,9 +235,9 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(36, 165);
+            this.label3.Location = new System.Drawing.Point(32, 158);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(74, 22);
+            this.label3.Size = new System.Drawing.Size(65, 19);
             this.label3.TabIndex = 2;
             this.label3.Text = "Nombre";
             // 
@@ -232,9 +245,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(36, 109);
+            this.label2.Location = new System.Drawing.Point(32, 100);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 22);
+            this.label2.Size = new System.Drawing.Size(49, 19);
             this.label2.TabIndex = 1;
             this.label2.Text = "Email";
             // 
@@ -242,23 +255,24 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(36, 42);
+            this.label1.Location = new System.Drawing.Point(32, 34);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(26, 22);
+            this.label1.Size = new System.Drawing.Size(22, 19);
             this.label1.TabIndex = 0;
             this.label1.Text = "Id";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // Clientes
+            // FrmClientes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MistyRose;
-            this.ClientSize = new System.Drawing.Size(875, 529);
+            this.ClientSize = new System.Drawing.Size(931, 516);
             this.Controls.Add(this.groupCliente);
             this.Controls.Add(this.dgvCliente);
             this.Controls.Add(this.textControlClientes);
-            this.Name = "Clientes";
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Name = "FrmClientes";
             this.Text = "Clientes";
             this.Load += new System.EventHandler(this.Clientes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCliente)).EndInit();

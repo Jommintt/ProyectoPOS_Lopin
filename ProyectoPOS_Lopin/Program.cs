@@ -17,7 +17,7 @@ namespace ProyectoPOS_Lopin
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormDiseñoVentas());
+            Application.Run(new FormLogin());
         }
     }
 }

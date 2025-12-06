@@ -34,10 +34,11 @@ namespace ProyectoPOS_Lopin.CapaDatos
             using (SqlConnection con = new SqlConnection(Conexion.Cadena))
             {
                 string sql = @"
- SELECT p.Id, p.Nombre, p.Precio, p.Stock, c.Nombre AS Categoria
- FROM Producto p
- INNER JOIN Categoria c ON p.Id_Categoria = c.Id
- WHERE p.Estado = 1;";
+                   SELECT p.Id, p.Nombre, p.Precio, p.Stock, c.NombreCategoria AS Categoria
+                    FROM Producto p
+                    INNER JOIN CategoriaProducto c ON p.Id_CategoriaProducto = c.Id
+                    WHERE p.Estado = 1;";
+
                 using (SqlCommand cmd = new SqlCommand(sql, con))
                 {
                     con.Open();
